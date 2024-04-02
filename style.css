@@ -13,6 +13,7 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
+    position: fixed;
     
 }
 .name{
@@ -44,6 +45,7 @@ span {
 .nav li{
     margin-bottom: 18px;
     font-family: 'poppins',sans-serif;
+    
 }
 .nav li a{
     color: white;
@@ -125,3 +127,46 @@ background-color: black;
     color: black;
     font-weight: 600;
 }
+.about{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+}
+
+.nice{
+    margin-top: 40px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.welcome{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.you{
+    color: red;
+    font-size:25px;
+    font-weight: 800;
+    margin-top:15px ;
+    margin-bottom:5px;
+}
+s{
+    color:black;
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+.aboute{
+    display: flex;
+    width:100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: right;
+    padding: 0 10%;
+    overflow: hidden;
+}
+
