@@ -1,0 +1,127 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow: hidden;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.name{
+    font-size: 20px;
+}
+
+.navbar{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    height:700px;
+    
+}
+span {
+    margin: auto;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 4px;
+    justify-content: space-around;
+    
+    
+  
+}
+
+.nav li{
+    margin-bottom: 18px;
+    font-family: 'poppins',sans-serif;
+}
+.nav li a{
+    color: white;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.nav li a:hover{
+    text-decoration:overline;
+    color: aquamarine;
+}
+
+.logo{
+    font-size: 20px;
+    margin: auto;
+}
+.logo a i{
+    color: white;
+   margin-bottom: 15px;
+    align-items: center;
+}
+.logo a i:hover{
+color: aquamarine;
+}
+
+
+.home{
+    width: 80%;
+    height: 700px;
+    
+}
+.parameter{
+    margin: auto;
+    font-size: 12px;
+    font-family: 'poppins',sans-serif;
+    
+}
+.home{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden
+
+}
+
+.boula{
+    font-weight: 900;
+    font-size: 45px;
+}
+.last{
+    font-size:30px ;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: gray;
+    color: #fff;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+}
+button:hover{
+color: aquamarine;
+background-color: black;
+}
+.number{
+    color: black;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.email{
+    color: black;
+    font-weight: 600;
+}
