@@ -169,4 +169,46 @@ s{
     padding: 0 10%;
     overflow: hidden;
 }
+.description{
+display: flex;
+flex-direction: column;
+background-color: black;
+height: 400px;
+width: 80px;
+}
+.two{
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    justify-content: space-between;
+    align-items: center;
+    
+    align-content: center;
+   
+}
+.service{
+    color: black;
+}
+.parent{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.service{
+    width:50%;
+    height:400px;
+    margin-top: 70px;
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+.letters{
+    width: 60%;
+    height: 40px;
+    margin-top: 80px;
+    
+}
 
